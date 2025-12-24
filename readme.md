@@ -137,6 +137,9 @@ python generator/run_design.py --requirement "Design a scalable backend service 
 
 ---
 
+### qwen 模型权重下载
+https://huggingface.co/Qwen/Qwen2.5-3B-Instruct/tree/main
+
 ### 输出示例（JSON）
 
 {
