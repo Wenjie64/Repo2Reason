@@ -85,13 +85,10 @@ Repo2Reason/
 
 该场景用于构建 **“代码 + 推理链”联合监督数据集**，可直接用于大模型微调或评估。
 
----
-
 ### 运行方式
 
 python generator/run_code_qa.py
 
----
 
 ### 输出
 
@@ -126,7 +123,6 @@ data/code_qa.jsonl
 - 设计基于真实代码仓库结构
 - 可直接用于自动化系统或下游推理
 
----
 
 ### 运行方式
 
@@ -135,7 +131,6 @@ python generator/run_design.py --requirement "Design a scalable backend service 
 说明：  
 --requirement 为必填参数，支持用户自定义任意需求描述。
 
----
 
 ### qwen 模型权重下载
 https://huggingface.co/Qwen/Qwen2.5-3B-Instruct/tree/main
@@ -176,7 +171,6 @@ python data/split_dataset.py
 data/train.jsonl  
 data/eval.jsonl  
 
----
 
 ### 2. LoRA 微调（CPU / MPS）
 
@@ -192,7 +186,6 @@ LoRA 权重输出至：
 
 finetune/output/
 
----
 
 ### 3. 验证（eval.jsonl）
 
